@@ -1,0 +1,9 @@
+# Terraform sensitive files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Azure credentials
+.azure/
